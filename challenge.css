@@ -1,0 +1,14 @@
+.items {
+    width: 400px;
+    height: 450px;
+}
+.navy {
+    width: 400px;
+    height: 100px;
+    background-color:midnightblue
+}
+.water {
+    width: 150px;
+    height: 250px;
+    background-color:lightblue
+}
