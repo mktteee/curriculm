@@ -1,0 +1,55 @@
+
+.box {
+    width: 400px;
+    height: 450px;
+
+}
+.navy {
+    width: 400px;
+    height: 100px;
+    background-color:#141f40
+}
+.water {
+    width: 150px;
+    height: 250px;
+    background-color:#80bfa8;
+    float: left;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.green {
+    width: 150px;
+    height: 50px;
+    background-color:#dbd400;
+    float: left; 
+}
+.sky {
+    width: 150px;
+    height: 100px;
+    background-color:#0093b7;
+    float: left;
+}
+.pink {
+    width: 100px;
+    height: 150px;
+    background-color:#ff9e6b;
+    float: left;    
+}
+.purple {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+    float: left;
+}
+.orange {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+.clearfix {
+    width: 400px;
+    height: 250px;
+}
