@@ -41,7 +41,7 @@
     height: 50px;
     background-color:#ff863f;
     box-sizing: border-box;
-    border: white 5px solid;
+    border: white 5px solid;  
 }
 .orange:not(:first-child) {
     margin-top: 10px;
