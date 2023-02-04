@@ -21,10 +21,9 @@ echo '<br>';
 echo 10 % 3;
 echo '<br>';
 
-$x = 0;
+$x = 1;
 $x++;
 echo $x;
 echo '<br>';
-$x *= 5;
-echo $x;
+
 ?>
