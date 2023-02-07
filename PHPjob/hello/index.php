@@ -88,6 +88,7 @@ while ($num < 100) {
     echo $num;
     echo '<br>';
     $num++;
+    echo '<br>';
     
 
 }
