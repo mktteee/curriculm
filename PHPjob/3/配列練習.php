@@ -6,9 +6,9 @@ $colors["yellow"] = "黄色";
 var_dump($colors);
 echo '<br>';
 
-$fruits = ["apple" => "appleといったらりんご", "orange" => "orangeといったらみかん", "peach" => "peachといったらもも"];
+$fruits = ["apple" => "りんご", "orange" => "みかん", "peach" => "もも"];
 foreach($fruits as $key => $value) {
-    echo $value;
+    echo $key."といったら".$value;
     echo '<br>';
 }
 echo '<br>';
