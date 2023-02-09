@@ -5,17 +5,21 @@ $kosuu = [3,5,10];
 
 function getgoukei($tanka, $kosuu) {
     $goukei = $tanka * $kosuu;
-    
-    $fruits = ["りんご", "みかん", "もも"]; 
-    foreach($fruits as $fruit) 
+    return $goukei;
+}    
+
+    foreach($tanka as $fruit) 
         echo $fruit."は".$goukei."円です。";
-       
-       echo '<br>';
-    
-}
-getgoukei(100,3);
-getgoukei(30,5);
-getgoukei(300,10); 
+        echo '<br>';
+
+
+$i = 0;
+foreach ($fruit as $key => $value) {
+    echo $key . "は" . getgoukei($value,$???[$i]) . "円です。";
+    echo "<br>";
+
+    $i++;
+    }
 
 
 

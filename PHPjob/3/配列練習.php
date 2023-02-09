@@ -44,4 +44,10 @@ function getBoxVolume($tate, $yoko, $takasa) {
     print "直方体の体積は".$box."だよ。";
 }
 getBoxVolume(5,10,8);
+
+$fruits = ["りんご", "みかん", "もも"];
+
+foreach ($fruits as $value) {
+    echo $value;
+}
 ?>
