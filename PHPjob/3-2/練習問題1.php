@@ -15,5 +15,6 @@ foreach ($fruits as $key => $value) {
 
     $i++;
     }
+    
 
 ?>
