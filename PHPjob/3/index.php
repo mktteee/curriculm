@@ -77,22 +77,21 @@ do {
 } while($num < 10);
 echo '<br>';
 
-for($i=0;$i<100;$i++) {
+for($i=0;$i<11;$i++) {
     echo $i;
     echo '<br>';
 }
 echo '<br>';
 
 $num = 0;
-while ($num < 100) {
+while ($num < 10) {
     echo $num;
     echo '<br>';
     $num++;
-    echo '<br>';
-    
-
 }
+    echo '<br>';
 
+    
 
 
 ?>

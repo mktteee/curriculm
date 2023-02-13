@@ -1,6 +1,8 @@
 <?php
-$my_name = $_GET['my_name'];
-$password = $_GET['password'];
+$my_name = $_POST['my_name'];
+$prize = $_POST['prize'];
+$number = $_POST['number'];
 ?>
-<p>私の名前は、<?php echo $my_name; ?></p>
-<p>私のパスワードは、<?php echo $password; ?></p>
+<p>お名前：<?php echo $my_name; ?></p>
+<p>ご希望商品：<?php echo $prize; ?></p>
+<p>個数：<?php echo $number; ?></p>
