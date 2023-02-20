@@ -16,10 +16,10 @@ $result3= ($answer3 == $value3)?'正解！':'残念・・・';
 <p><?php echo $my_name; ?>さんの結果は・・・？</p>
 <p>①の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-<?php echo $result1 ?>
+<?php echo $result1; ?>
 <p>②の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-<?php echo $result2 ?>
+<?php echo $result2; ?>
 <p>③の答え</p>
 <!--作成した関数を呼び出して結果を表示-->
-<?php echo $result3 ?>
+<?php echo $result3; ?>
