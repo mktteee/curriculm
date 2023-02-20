@@ -9,9 +9,16 @@ $value1 = $_POST['value1'];
 $value2 = $_POST['value2'];
 $value3 = $_POST['value3'];
 //選択した回答と正解が一致していれば「正解！」、一致していなければ「残念・・・」と出力される処理を組んだ関数を作成する
-$result1= ($answer1 == $value1)?'正解！':'残念・・・';
-$result2= ($answer2 == $value2)?'正解！':'残念・・・';
-$result3= ($answer3 == $value3)?'正解！':'残念・・・';
+function chkAnswer($answer,$value) {
+    if($answer == $value) {
+        return "正解！";
+    } else {
+        return "残念・・・";
+    }
+}
+$result1 = chkAnswer($answer1, $value1); 
+$result2 = chkAnswer($answer2, $value2);
+$result3 = chkAnswer($answer3, $value3);
 ?>
 <p><?php echo $my_name; ?>さんの結果は・・・？</p>
 <p>①の答え</p>
