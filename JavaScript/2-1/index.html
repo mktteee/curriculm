@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>要素の取得 document.getElement...</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" onclick="myfunc()"></div>
+    <script>
+    function myfunc() {
+        let change = document.getElementById('box');
+        change.style.backgroundColor = 'red';
+    }
+    </script>
+</body>
+</html>
