@@ -45,20 +45,21 @@
     <script>
         //①onchangeで使用されている関数の中身を実装してください。
 
-        function changeLang() {
+        function changeLang(){
             
             let jpn = document.getElementById('selected_jpn');
             let en = document.getElementById('selected_en');
             let japanese = document.getElementById('japanese');
             let english = document.getElementById('english');
 
-            if(jpn.selected){
-                english.style.display="none";     
-            }else if(en.selected){
-                japanese.style.display="none";
+            if(jpn.selected==true){
+                english.style.display ="none";
+                japanese.style.display ="";   
+            }else if(en.selected==true){
+                japanese.style.display ="none";
+                english.style.display ="";
             
             }
-
         }
     </script>
 </body>
