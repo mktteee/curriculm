@@ -23,23 +23,19 @@
         <option id="selected_en">English</option>
         <option id="selected_all">全て表示</option>
     </select>
-    <table>
-        <div id ="japanese">  
-            <tr>
+    <table>  
+            <tr id ="japanese">
                 <th>日本</th>
                 <td>こんにちは</td>
                 <td>ありがとう</td>
                 <td>さようなら</td>
             </tr>
-        </div>
-        <div id ="english"> 
-            <tr>
+            <tr id ="english">
                 <th>English</th>
                 <td>Hello</td>
                 <td>Thank you</td>
                 <td>Good Bye</td>
-            </tr>
-        </div>     
+            </tr>   
     </table>
 
     <script>
@@ -59,6 +55,9 @@
                 japanese.style.display ="none";
                 english.style.display ="";
             
+            }else{
+                japanese.style.display ="";
+                english.style.display ="";
             }
         }
     </script>
