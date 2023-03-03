@@ -24,7 +24,7 @@
     <script>
       $(".dropdwn li").hover(
         function () {
-          $(".dropdwn_menu").slideToggle();
+          $(".dropdwn_menu:not(:animated)",this).slideToggle();
        
         }
       );
