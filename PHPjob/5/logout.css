@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    width: 20%;
+}
+.button {
+    height: 40px;
+    width: 160px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #1e90ff;
+}
+.logout {
+    color:#0094c8;
+}

@@ -27,7 +27,7 @@ try {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./main.css">
     <title>在庫一覧画面</title>
 </head>
 <body>
@@ -37,7 +37,7 @@ try {
         <button class="btn2" onclick="location.href='logout.php'">ログアウト</button><br>
     </div>
         <table>
-            <tr>
+            <tr class="title">
                 <th>タイトル</th>
                 <th>発売日</th>
                 <th>在庫数</th>
@@ -45,7 +45,7 @@ try {
             </tr>
 
             <?php while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) { ?>
-                <tr>
+                <tr class="item">
                     <td><?php echo $row['title']; ?></td>
                     <td><?php echo $row['date']; ?></td>
                     <td><?php echo $row['stock']; ?></td>

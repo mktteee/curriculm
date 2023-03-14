@@ -1,0 +1,52 @@
+body {
+    margin: 0 auto;
+    width: 500px;
+}
+.btn1 {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #1e90ff;
+}
+.btn2 {
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: darkgray;
+}
+.btn3 {
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;   
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    border: solid 2px rgb(222, 231, 238);
+    width: 100%;
+    border-color: aliceblue;
+}
+table th, table td {
+    border: solid 2px rgb(222, 231, 238);
+}
+.title {
+    height: 40px;
+    background-color:aliceblue;
+    text-align: center;
+}
+.item {
+    height: 40px;
+    text-align: center;
+}

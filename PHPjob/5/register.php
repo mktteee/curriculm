@@ -55,21 +55,25 @@ if (isset($_POST["register"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title></title>
 </head>
 <body>
-    <font color="ACFF84"><?php echo htmlspecialchars($okMessage, ENT_QUOTES); ?></font><br>
+    <font color="#0094c8"><?php echo htmlspecialchars($okMessage, ENT_QUOTES); ?></font><br>
+    <font color="red"><?php echo htmlspecialchars($userError, ENT_QUOTES); ?></font><br>
+    <font color="red"><?php echo htmlspecialchars($passError, ENT_QUOTES); ?></font><br>
+    <font color="red"><?php echo htmlspecialchars($db_error, ENT_QUOTES); ?></font><br>
+
+
     <h1>ユーザー新規登録</h1>
     <form action="register.php" method="post">
-        <input placeholder="ユーザー名" type="text" name="username" id="name" style="width: 250px; height: 30px">
+        <input class="placeholder" placeholder="ユーザー名" type="text" name="username" id="name" style="width: 250px; height: 30px">
         <br>
-        <input placeholder="パスワード" type="password" name="password" id="password" style="width: 250px; height: 30px; margin-top: 15px;">
+        <input class="placeholder" placeholder="パスワード" type="password" name="password" id="password" style="width: 250px; height: 30px; margin-top: 15px;">
         <br>
         <input class="button" type="submit" value="新規登録" name="register" id="register">
 
-        <font color="red"><?php echo htmlspecialchars($userError, ENT_QUOTES); ?></font><br>
-        <font color="red"><?php echo htmlspecialchars($passError, ENT_QUOTES); ?></font><br>
-        <font color="red"><?php echo htmlspecialchars($db_error, ENT_QUOTES); ?></font><br>
+        
     </form>
 </body>
 </html>
