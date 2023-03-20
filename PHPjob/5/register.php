@@ -11,7 +11,8 @@ $okMessage = '';
 $db_error = '';
 
 // フォームから値が送信されているか
-if (isset($_POST["register"])) {
+if (isset($_POST["register"])) 
+
     // ユーザー名が未入力の場合
     if (empty($_POST['username'])) {
         $userError = 'ユーザー名が未入力です。';
